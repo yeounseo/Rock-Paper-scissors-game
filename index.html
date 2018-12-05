@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+
+  <div class="score-board">
+    <div id="user-label" class="badge">user</div>
+    <div id="computer-label" class="badge">comp</div>
+    <span id="user-score">0</span>:<span id="computer-score">0</span>
+  </div>
+
+  <div class="result">
+    <p>Paper covers rock. You win!</p>
+  </div>
+
+<!-- need r,p,s images file  -->
+
+  <div class="choices">
+    <div class="choice" id="r">
+      <!-- <img src="images/" alt="rock"> -->
+      <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F7e%2FRock-paper-scissors_(rock).png&f=1" alt="">
+    </div>
+    <div class="choice" id="p">
+      <!-- <img src="images/" alt="paper"> -->
+      <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fa%2Faf%2FRock-paper-scissors_%2528paper%2529.png&f=1" alt="">
+    </div>
+    <div class="choice" id="s">
+      <!-- <img src="images/" alt="scissors"> -->
+      <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F5%2F5f%2FRock-paper-scissors_%2528scissors%2529.png&f=1" alt="">
+    </div>
+  </div>
+
+  <p id="action-message">Make your move.</p>
+</body>
+</html>
